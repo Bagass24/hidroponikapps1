@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hydrotech.bagassaputro.hidroponikapps.AboutActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginLeft="16dp">
+
+       <ss.com.bannerslider.views.BannerSlider
+           android:id="@+id/banner_slider1"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="32sp"
+           android:text="HypoTech"
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="12dp"
+           android:textColor="@color/hitam"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Hydroponic Technology"
+           android:textColor="@color/hijau"
+           android:textSize="16dp"
+           android:layout_marginBottom="12dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="2dp" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Teknologi Hidroponik merupakan Teknologi terbaru dalam dunia pertanian dengan menggunakan sensor dan konsep IoT."
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="2dp" />
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:layout_marginBottom="12dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp">
+           <TableRow>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="16dp"
+                   android:textSize="12sp"
+                   android:text="Control" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="12sp"
+                   android:text="@string/control"
+                   android:layout_marginBottom="12dp"/>
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="16dp"
+                   android:textSize="12sp"
+                   android:text="Tanaman" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="12sp"
+                   android:text="@string/tanaman"
+                   android:layout_marginBottom="12dp"/>
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="16dp"
+                   android:textSize="12sp"
+                   android:text="Website" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="12sp"
+                   android:text="Smart-gh.com"/>
+           </TableRow>
+       </TableLayout>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Creator :"
+           android:textSize="12sp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:layout_marginBottom="12dp"
+           android:layout_marginTop="12dp"
+           android:layout_gravity="center"
+           android:gravity="center"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:layout_marginBottom="12dp"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_gravity="center">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="16dp"
+               android:layout_gravity="center"
+               android:gravity="center">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:src="@drawable/bagasalmamater"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Bagas"
+                   android:textSize="12sp" android:gravity="center_horizontal" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="16dp"
+               android:layout_gravity="center"
+               android:gravity="center">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:src="@drawable/bagasalmamater"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Bagas"
+                   android:textSize="12sp" android:gravity="center_horizontal" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="16dp"
+               android:layout_gravity="center"
+               android:gravity="center">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:src="@drawable/bagasalmamater"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Bagas"
+                   android:textSize="12sp" android:gravity="center_horizontal" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginRight="16dp"
+               android:layout_gravity="center"
+               android:gravity="center">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:src="@drawable/bagasalmamater"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Bagas"
+                   android:textSize="12sp" android:gravity="center_horizontal" />
+           </LinearLayout>
+       </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
